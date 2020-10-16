@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_shop"
+        android:checked="true"
+        android:icon="@drawable/shop"
+        android:title="@string/tab1"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_myOffer"
+        android:checked="false"
+        android:icon="@drawable/offers"
+        android:title="@string/tab2"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_FreeConsultation"
+        android:checked="false"
+        android:icon="@drawable/home"
+        android:title="@string/tab3"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_deliveryStatus"
+        android:checked="false"
+        android:icon="@drawable/support"
+        android:title="@string/tab4"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_support"
+        android:checked="false"
+        android:icon="@drawable/status"
+        android:title="@string/tab5"
+        app:showAsAction="ifRoom" />
+</menu>

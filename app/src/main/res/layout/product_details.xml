@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_2sdp"
+            android:orientation="vertical"
+            android:id="@+id/llHead">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_150sdp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/round_gray_border"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/imgProductImage"
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="@dimen/_150sdp"
+                    android:padding="@dimen/_1sdp"
+                    android:src="@drawable/black_seed_lotion_with_citrus_8oz">
+                </ImageView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ethiopian Black Seed Oil 16oz (GLASS)"
+                    android:textColor="@color/black1"
+                    android:id="@+id/txtTitle"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/_15ssp"
+                    android:textStyle="bold">
+                </TextView>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:layout_marginBottom="@dimen/_3sdp"
+        android:gravity="center"
+        android:text="Price : "
+        android:textColor="@color/black1"
+        android:textSize="@dimen/_15ssp"
+        android:textStyle="bold">
+    </TextView>
+    <TextView
+        android:id="@+id/txtPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:layout_marginBottom="@dimen/_3sdp"
+        android:gravity="center"
+        android:text="15"
+        android:textColor="@color/orange"
+        android:textSize="@dimen/_15ssp"
+        android:textStyle="bold">
+    </TextView>
+</LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="In stock"
+                    android:textColor="@color/black"
+                    android:visibility="gone"
+                    android:textSize="@dimen/_10ssp">
+                </TextView>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:background="@drawable/round_sky_blue"
+                    android:text="Add to Bag"
+                    android:textSize="@dimen/_12ssp"
+                    android:textStyle="bold"
+                    android:id="@+id/btnAddToBad"
+                    android:visibility="gone"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:textColor="@color/white">
+                </Button>
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:src="@drawable/back_arrow"
+            android:layout_margin="@dimen/_8sdp"
+            android:id="@+id/imgBack">
+        </ImageView>
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/_5sdp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtHead1"
+            android:text="@string/p0head"
+            android:gravity="center"
+            android:textSize="@dimen/_15ssp"
+            android:textColor="@color/black1"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:id="@+id/txtDes1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="@string/p0dec"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/_13sdp"
+            android:layout_marginRight="@dimen/_8sdp"
+            android:textSize="@dimen/_12ssp"
+            >
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/p0head2"
+            android:textSize="@dimen/_13ssp"
+            android:visibility="gone"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:textColor="@color/black"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:text="@string/p0dec2"
+            android:textColor="@color/black"
+            android:visibility="gone"
+            android:textSize="@dimen/_13ssp">
+        </TextView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_25sdp"
+            android:background="@color/white">
+        </ImageView>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
